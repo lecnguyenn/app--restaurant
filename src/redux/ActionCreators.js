@@ -47,9 +47,6 @@ export const postFeedback = (firstname,lastname,telephone,email,agree,contactTyp
     alert('You are feedback could not be post\nError:'+ error.message) })
     
 }
-
-
-
 export const postComment = (dishId, rating, author, comment) => (dispatch) =>{
 
     const newComment = {

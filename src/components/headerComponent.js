@@ -41,18 +41,18 @@ class Header extends Component{
              <div className="container">
             <NavbarToggler onClick={this.toggleNav} />
              <NavbarBrand className="mr-auto" href="/">
-                 <img src="./assets/images/logo.png" height="30" width="40" alt="Nguyen Le Restaurant" />
+                 <img src="./assets/images/logo.png" height="80" width="80" alt="Nguyen Le Restaurant" />
              </NavbarBrand>
              <Collapse isOpen={this.state.isNavOpen} navbar>
                 <Nav navbar>
                     <NavItem>
                         <NavLink className="nav-link" to="/home">
-                            <span className="fa fa-home fa-lg">Home</span>
+                            <span className="fa fa-home fa-lg">Trang chủ</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/aboutus">
-                            <span className="fa fa-info fa-lg">About us</span>
+                            <span className="fa fa-info fa-lg">Giới thiệu</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -62,14 +62,14 @@ class Header extends Component{
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/contactus">
-                            <span className="fa fa-address-card fa-lg">Contact us</span>
+                            <span className="fa fa-address-card fa-lg">Liên hệ</span>
                         </NavLink>
                     </NavItem>
                 </Nav>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
                         <Button outline onClick={this.toggleModal}>
-                            <span className="fa fa-sign-in fa-lg"></span>Login
+                            <span className="fa fa-sign-in fa-lg"></span>Đăng nhập
                         </Button>
                     </NavItem>
                 </Nav>
@@ -79,8 +79,9 @@ class Header extends Component{
         <Jumbotron>
             <div className="row row-header">
                 <div className="col-12 col-sm-6">
-                    <h1>Ristorante Con Fusion</h1>
-                    <p>We take inspiration from the world's best cuisines and creat a unique fusion experrice.</p>
+                    <h1>Nguyen Le Restaurant</h1>
+                    <p>
+Chúng tôi lấy cảm hứng từ những món ăn ngon nhất của ba miền Bắc Trung Nam và tạo ra một trải nghiệm kết hợp độc đáo.</p>
                 </div>
             </div>
         </Jumbotron>

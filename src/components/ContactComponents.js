@@ -29,22 +29,22 @@ class Contact extends Component{
             <div className="container">
                  <div className="row">
                         <Breadcrumb>
-                            <BreadcrumbItem><Link to='/home'>Home</Link></BreadcrumbItem>
-                            <BreadcrumbItem active>Contact us</BreadcrumbItem>
+                            <BreadcrumbItem><Link to='/home'>Trang chủ</Link></BreadcrumbItem>
+                            <BreadcrumbItem active>Liên hệ</BreadcrumbItem>
                         </Breadcrumb>
                         <div className="col-12">
-                            <h3>Contact</h3>
+                            <h3>Liên hệ</h3>
                             <hr/>
                         </div>
                 </div>
                 <div className="row row-content">
                     <div className="col-12">
-                        <h3> Location Information</h3>
+                        <h3>Thông tin địa chỉ</h3>
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-1">
-                        <h5>Our Address</h5>
+                        <h5> Địa chỉ</h5>
                         <address>
-                            214 Nguyen Xien-Thanh Xuan-Ha Noi
+                            214 Nguyen Xiển - Thanh Xuân - Hà Nội
                             <i className="fa fa-phone"></i>0392854780 <br />
                             <i className="fa fa-fax"></i>123456789 <br />
                             <i className="fa fa-envelope"></i>: <a href="mailto: lecnguyenn@gmail.com">lecnguyenn@gmail.com</a>
@@ -52,11 +52,12 @@ class Contact extends Component{
                         </address>
                     </div>
                     <div className="col-12 col-sm-6 offset-sm-1">
-                        <h5>Map of our Location</h5>
+                        <h5>Địa chỉ bản đồ</h5>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1344897705317!2d105.8037368153467!3d20.98724538602089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aceaa17d1be3%3A0xdf1cc6def05b7fbb!2zMjE0IMSQxrDhu51uZyBOZ3V54buFbiBYaeG7g24sIEjhuqEgxJDDrG5oLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1608027373547!5m2!1svi!2s" ></iframe></div>
                     </div>
                     <div className="col-12 col-sm-11 offset-sm-1">
                         <div className="btn-group" role="group">
-                            <a role="button" className="btn btn-primary" href="tel: 0392854780"><i className="fa fa-phone"></i>Call</a>
+                            <a role="button" className="btn btn-primary" href="tel: 0392854780"><i className="fa fa-phone"></i>Gọi</a>
                             <a role="button" className="btn btn-info"><i className="fa fa-skype"></i></a>
                             <a role="button" className="btn btn-success" href="mailto :lecnguyenn@gmail.com"><i className="fa fa-envelope-o"></i></a>
     
@@ -65,12 +66,12 @@ class Contact extends Component{
                 </div>
                 <div className="row row-content">
                     <div className="col-12">
-                        <h3>Send Us Your Feedback</h3>
+                        <h3>Góp ý của bạn về cửa hàng</h3>
                     </div>
                     <div className="col-12 col-md-9">
                         <Form model="feedback" onSubmit={(values) =>this.handleSubmit(values)}>
                             <Row className="form-group">
-                                <Label htmlFor="firstname" md={2}>FirstName</Label>
+                                <Label htmlFor="firstname" md={2}>Tên</Label>
                                 <Col md={10}>
                                     <Control.text model=".firstname" id="firstname" name="firstname" placeholder="Firstname" className="form-control"
                                     validators={{
@@ -90,7 +91,7 @@ class Contact extends Component{
                                 </Col>
                             </Row>
                             <Row className="form-group">
-                                <Label htmlFor="lastname" md={2}>LastName</Label>
+                                <Label htmlFor="lastname" md={2}>Họ</Label>
                                 <Col md={10}>
                                     <Control.text model=".lastname" id="lastname" name="lastname" placeholder="Lastname" className="form-control"
                                      validators={{
@@ -111,7 +112,7 @@ class Contact extends Component{
                                 </Col>
                             </Row>
                             <Row className="form-group">
-                                <Label htmlFor="telephone" md={2}>Contact.Tel</Label>
+                                <Label htmlFor="telephone" md={2}>Số điện thoại</Label>
                                 <Col md={10}>
                                     <Control.text model=".telephone" id="telephone" name="telephone" placeholder="Contact.Tel" className="form-control"
                                         validators={{
@@ -158,20 +159,20 @@ class Contact extends Component{
                                         <Label check>
                                             <Control.checkbox model=".agree" name="agree" className="form-check-input"
                                            /> {' '}
-                                            <strong>May we contact you ?</strong>
+                                            <strong>Chúng tôi có thể liên hệ với bạn ?</strong>
                                         </Label>
                                        </div>
                                 </Col>
                         
                                 <Col md={{size:3, offset:1}}>
                                     <Control.select model=".contactType" name="contactType" className="form-control">
-                                    <option>Tel.</option>
+                                    <option>Số điện thoại</option>
                                     <option>Email</option>
                                     </Control.select>
                                 </Col>
                            </Row>
                             <Row className="form-group">
-                            <Label htmlFor="feedback" md={2}>Your Feedback</Label>
+                            <Label htmlFor="feedback" md={2}>Nhận xét của bạn</Label>
                                 <Col md={10}>
                                     <Control.textarea model=".message" name="message" rows="12" className="form-control" />
                                 </Col>
@@ -179,7 +180,7 @@ class Contact extends Component{
                             <Row className="form-group">
                                 <Col md={{size:10, offset:2}}>
                                     <Button type="submit" color="primary">
-                                        Send FeedBack
+                                        Gửi nhận xét
                                     </Button>
                                 </Col>
                             </Row>

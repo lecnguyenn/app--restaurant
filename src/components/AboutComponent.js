@@ -49,32 +49,32 @@ function About(props) {
         <div className="container">
             <div className="row">
                 <Breadcrumb>
-                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                    <BreadcrumbItem active>About Us</BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/home">Trang chủ</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>Giới thiệu</BreadcrumbItem>
                 </Breadcrumb>
                 <div className="col-12">
-                    <h3>About Us</h3>
+                    <h3>Giới thiệu</h3>
                     <hr />
                 </div>                
             </div>
             <div className="row row-content">
                 <div className="col-12 col-md-6">
-                    <h2>Our History</h2>
-                    <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
-                    <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
+                    <h2>Lịch sử của chúng tôi</h2>
+                    <p>Được thành lập vào năm 2010, Nguyen Le Restaurant nhanh chóng trở thành một biểu tượng ẩm thực xuất sắc tại Hà Nội. Với thương hiệu ẩm thực kết hợp độc đáo không thể tìm thấy ở đâu khác, nhà hàng nhận được sự bảo trợ từ nhóm khách hàng hạng A ở Hà Nội. Với bốn trong số các đầu bếp ba sao Michelin giỏi nhất Đông Nam Á, bạn sẽ luôn được thưởng thức những món ăn độc đáo và ngon miệng khi đến thăm nhà hàng chúng tôi.</p>
+                    <p>Nhà hàng đánh dấu sự khởi đầu khiêm tốn của mình là một quán ăn nhỏ tên là <em>Đồ ăn Nguyen Le </em>, chúng tôi đã phát triển nhanh chóng và trở thành chuỗi cửa hàng đông khách và có thức ăn ngon nhất Việt Nam </p>
                 </div>
                 <div className="col-12 col-md-5">
                     <Card>
-                        <CardHeader className="bg-primary text-white">Facts At a Glance</CardHeader>
+                        <CardHeader className="bg-primary text-white">Sơ lược</CardHeader>
                         <CardBody>
                             <dl className="row p-1">
-                                <dt className="col-6">Started</dt>
-                                <dd className="col-6">3 Feb. 2013</dd>
-                                <dt className="col-6">Major Stake Holder</dt>
-                                <dd className="col-6">HK Fine Foods Inc.</dd>
-                                <dt className="col-6">Last Year's Turnover</dt>
-                                <dd className="col-6">$1,250,375</dd>
-                                <dt className="col-6">Employees</dt>
+                                <dt className="col-6">Bắt đầu</dt>
+                                <dd className="col-6">03 - 12 -20102010</dd>
+                                <dt className="col-6">Founder</dt>
+                                <dd className="col-6">Nguyen Le.</dd>
+                                <dt className="col-6">Doanh thu năm ngoái</dt>
+                                <dd className="col-6">1,250,375$</dd>
+                                <dt className="col-6">Nhân viên</dt>
                                 <dd className="col-6">40</dd>
                             </dl>
                         </CardBody>
@@ -84,11 +84,9 @@ function About(props) {
                     <Card>
                         <CardBody className="bg-faded">
                             <blockquote className="blockquote">
-                                <p className="mb-0">You better cut the pizza in four pieces because
-                                    I'm not hungry enough to eat six.</p>
-                                <footer className="blockquote-footer">Yogi Berra,
-                                <cite title="Source Title">The Wit and Wisdom of Yogi Berra,
-                                    P. Pepe, Diversion Books, 2014</cite>
+                                <p className="mb-0">Hãy nấu như nấu cho người mình thương yêu nhất.</p>
+                                <footer className="blockquote-footer">
+                                <cite title="Source Title">Nguyen Le </cite>
                                 </footer>
                             </blockquote>
                         </CardBody>
@@ -97,7 +95,7 @@ function About(props) {
             </div>
             <div className="row row-content">
                 <div className="col-12">
-                    <h2>Corporate Leadership</h2>
+                    <h2>Các nhà đồng sáng lập</h2>
                 </div>
                 <div className="col-12">
                     <Media list>
