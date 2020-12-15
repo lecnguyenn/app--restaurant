@@ -1,0 +1,348 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Phở bò",
+      "image": "images/phobo.jpg",
+      "category": "mains",
+      "label": "Hot",
+      "price": "4.99",
+      "featured": true,
+      "description": "Hương vị của món ăn này hội tụ đầy đủ những gì tinh túy nhất trong ẩm thực Việt Nam. Nhiều du khách quốc tế đến tham quan, du lịch tại Việt Nam, ngoài việc khám phá những địa điểm tham quan nổi tiếng, ai cũng từng một lần vào quán, gọi tô Phở nóng hổi để thưởng thức, mà không phải gọi bằng từ tiếng Anh là “noodle” gọi thẳng là “Phở”"
+    },
+    {
+      "id": 1,
+      "name": "Nem",
+      "image": "images/nem.jpg",
+      "category": "appetizer",
+      "label": "",
+      "price": "1.99",
+      "featured": false,
+      "description": "Nem rán hay chả giò, chả ram hay chả đa-nem là tên một món ăn nổi tiếng của người Việt, chúng cũng được gọi tắt là nem theo cách gọi phổ biến ở miền Bắc. Ở miền Trung, món ăn này thường gọi là ram (riêng ở Thanh Hóa gọi là chả), còn ở miền Nam, nó được gọi là chả giò. Loại nem gói theo kiểu miền Nam được người Bắc gọi là nem Sài Gòn; có xuất xứ từ Trung Quốc trong những món dimsum và được chế biến từ những nguyên liệu dễ kiếm, cách thực hiện đơn giản."
+    },
+    {
+      "id": 2,
+      "name": "Nem nắm",
+      "image": "images/nemnam.jpg",
+      "category": "appetizer",
+      "label": "New",
+      "price": "1.99",
+      "featured": false,
+      "description": "món nem nắm Giao Thủy được lưu truyền từ thế hệ này đến thế hệ khác và đã trở thành “thương hiệu” được truyền tụng trong nhân dân và được coi là món ăn đặc sản của người dân Giao Thủy nói riêng và người dân Nam Định nói chung. Nó được làm từ bì và thịt lợn."
+    },
+    {
+      "id": 3,
+      "name": "thịt quay",
+      "image": "images/thit quay.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Heo quay hay lợn quay là món ăn có nguyên liệu từ lợn và được thực hiện bằng phương pháp quay trên lò than. Ở Bali của Indonesia, món heo quay còn được gọi là Babi guling, Babi panggang hay Babi bakar đây là một món đặc sản trứ danh ở đất nước không ăn thịt heo."
+    },
+    {
+      "id": 4,
+      "name": "Vịt quay",
+      "image": "images/vitquay.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Vịt quay Bắc Kinh là một món ăn từ Bắc Kinh được chế biến từ thời phong kiến. Đặc điểm của loại thịt này là lớp da mỏng và giòn, còn các phiên bản chính thống của món ăn thì phục vụ chủ yếu là da với ít thịt, được người nấu thái lát trước mặt thực khách."
+    },
+    {
+      "id": 5,
+      "name": "Tôm Hùm",
+      "image": "images/tomhum.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Cuối tuần là dịp cả gia đình được nghỉ ngơi, quây quần bên nhau. Ngày nghỉ, mình luôn cố gắng để có những món ăn tươi, mới lạ để đổi món cho cả nhà. Tôm hùm chiên bơ tỏi là món mình lựa chọn cho ngày cuối tuần này."
+    },
+    {
+      "id": 6,
+      "name": "Canh ngao",
+      "image": "images/canh ngao.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Canh ngao nấu chua là món ăn được nhiều bà nội trợ lựa chọn vì làm rất nhanh và đơn giản nhưng lại vô cùng dễ ăn, ngon miệng trong tiết trời nắng nóng, oi bức."
+    },
+    {
+      "id": 7,
+      "name": "gà rang muối",
+      "image": "images/ga rang muoi.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Hương vị thơm lừng, giòn giòn lạ miệng của thịt gà và hỗn hợp muối rang độc đáo đã tạo nên món gà rang muối thơm ngon khó cưỡng, ăn một lần là nhớ mãi."
+    },
+    {
+      "id": 8,
+      "name": "xôi chiên",
+      "image": "images/xoi chien.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Xôi chiên là món ăn đường phố nổi tiếng bắt nguồn từ miền Trung Việt Nam. Ngày nay món ăn này rất phổ biến và được yêu thích tại nhiều nơi trên đất nước. Tuy chỉ là món chiên đơn giản nhưng quá trình chế biến món ăn này khá kì công và cần phải có bí quyết để đạt được mùi vị thơm ngon nhất."
+    },
+    {
+      "id": 9,
+      "name": "Salas rau trộn",
+      "image": "images/salas rau tron.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": " salad là một loại món ăn có nguồn gốc từ các nước châu Âu, đây là món hỗn hợp theo phương pháp trộn lẫn bao gồm nhiều nguyên liệu khác nhau và có nhiều loại khác nhau: Chủ yếu là chế biến từ rau sống và các loại xà lách, mì, cây họ đậu, trứng hoặc các loại ngũ cốc; cũng như xa lát hỗn hợp kết hợp với thịt, thịt gia cầm, hoặc hải sản và xa lát trái cây. Xa lát xanh bao gồm rau diếp, các loại hạt ngũ cốc, đôi khi được bổ sung thêm thịt, cá, mì ống, pho mát, trứng, hạt ngũ cốc."
+    }
+  ],
+  "comments": [
+
+    {
+      "id": 0,
+      "dishId": 1,
+      "rating": 3,
+      "comment": "Nhà hàng rất tuyệt vời!",
+      "author": "Nam Phạm",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "món ăn rất ngon!",
+      "author": "Linh Trần",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "Nhan viên phục vụ rất tận tình",
+      "author": "Chinh Tạ",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "5 sao",
+      "author": "Trần Tiến Anh",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "5 sao",
+      "author": "Đức",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "dishId": 2,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Không thể tìm được nhà hàng nào tốt hơn",
+      "author": "Hiệp Phạm",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "dishId": 2,
+      "rating": 2,
+      "comment": "Tổ chức sinh nhật ở đây rất tuyệt",
+      "author": "Phạm Hoàng Ngân",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "dishId": 3,
+      "rating": 5,
+      "comment": "Món ăn rất ngon",
+      "author": "Minh Đức",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Tôi sẽ đến lần tiếp theo",
+      "author": "Trần Minhh Tuấn",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "dishId": 3,
+      "rating": 3,
+      "comment": "Rất tuyệt vời",
+      "author": "Trần Quang Nam",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 11,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 12,
+      "dishId": 3,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 0,
+      "rating": "1",
+      "author": "Nguyen",
+      "comment": "this is test\n",
+      "date": "2020-11-13T09:10:44.932Z",
+      "id": 20
+    },
+    {
+      "dishId": 0,
+      "rating": "2",
+      "author": "Ngan",
+      "comment": "Ngon! mlem mlem",
+      "date": "2020-11-13T09:27:05.851Z",
+      "id": 21
+    },
+    {
+      "dishId": 1,
+      "rating": "2",
+      "author": "Nguyen",
+      "comment": "This is test comment\n",
+      "date": "2020-11-23T02:22:56.052Z",
+      "id": 22
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Đại tiệc Buffet cuối tuần",
+      "image": "images/buffet.jpg",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Có sự kết hợp hấp dẫn với sự lựa chọn của năm loại salad khác nhau, sáu món khai vị hấp dẫn, sáu món chính và năm món tráng miệng ngon nhất. Nước có ga và nước ngọt chảy rót tùy ý. Tất cả chỉ với 199K/người"
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/daubep.jpg",
+      "designation": "Đầu bếp",
+      "abbr": "CEO",
+      "featured": true,
+      "description": "Đầu bếp ba sao Michelin từng đoạt giải thưởng với kinh nghiệm Quốc tế sâu rộng đã làm việc chặt chẽ với những người trong giới ẩm thực, Chị chuyên tạo ra những trải nghiệm kết hợp Nhật- Việt hấp dẫn. Anh ấy nói, Hãy kết hợp các món ăn từ hai nền văn hóa ngon nhất, và bạn sẽ có được thành công! Amma Mia!"
+    },
+    {
+      "id": 1,
+      "name": "Nguyen Le",
+      "image": "images/daubep.jpg",
+      "designation": "Nhà sáng lập",
+      "abbr": "CEO",
+      "featured": false,
+      "description": "Là người sáng lập cho chuỗi của hàng, anh luôn dồn tâm trí và dành mọi tâm huyết cho chuỗi cửa hàng của mình."
+    },
+    {
+      "id": 2,
+      "name": "Trần Việt Hùng",
+      "image": "images/daubep.jpg",
+      "designation": "Giám đốc quản lý thực phẩm",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Giám đốc quản lý thực phẩm của chúng tôi, Trần Việt Hùng, được các đồng nghiệp gọi là anh ấy một cách trìu mến, xuất thân từ một gia đình có truyền thống lâu đời về nông nghiệp và sản xuất. Những kinh nghiệm lớn lên trong một trang trại ở vùng hẻo lánh của Úc đã mang lại cho ông sự đánh giá cao về các nguồn thực phẩm đa dạng."
+    },
+    {
+      "id": 3,
+      "name": "Phạm Hoàng Ngân",
+      "image": "images/daubep.jpg",
+      "designation": "Giám đốc nhân sự",
+      "abbr": "CTO",
+      "featured": false,
+      "description": "Tốt nghiệp chuyên nghành quản trị kinh doanh đại học Ngoại Thương, anh ấy luôn chọn ra những ứng viên xuất sắc nhất về làm cho nhà hàng."
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    },
+    {
+      "firstname": "nguyen",
+      "lastname": "Nguyen",
+      "telephone": "0392854780",
+      "email": true,
+      "agree": "Email",
+      "date": "Fri Nov 20 2020 12:10:31 GMT+0700 (Giờ Đông Dương)",
+      "id": 2
+    },
+    {
+      "firstname": "nguyen",
+      "lastname": "Nguyen",
+      "telephone": "0392854780",
+      "email": true,
+      "date": "Fri Nov 20 2020 12:13:39 GMT+0700 (Giờ Đông Dương)",
+      "id": 3
+    },
+    {
+      "firstname": "Suu",
+      "lastname": "wewqe",
+      "telephone": "0392854780",
+      "email": true,
+      "date": "Fri Nov 20 2020 12:14:42 GMT+0700 (Giờ Đông Dương)",
+      "id": 4
+    },
+    {
+      "firstname": "nguyen",
+      "lastname": "wewqe",
+      "telephone": "0392854780",
+      "email": true,
+      "date": "2020-11-20T05:17:41.830Z",
+      "id": 5
+    },
+    {
+      "firstname": "nguyen",
+      "lastname": "Nguyen",
+      "telephone": "0392854780",
+      "email": true,
+      "date": "2020-11-20T05:22:23.615Z",
+      "id": 6
+    },
+    {
+      "firstname": "nguyen",
+      "lastname": "wewqe",
+      "telephone": "0392854780",
+      "email": "nguyenlc.B17VT265@stu.ptit.edu.vn",
+      "agree": true,
+      "message": "erqrqrqrqrwqr",
+      "date": "2020-11-20T05:24:45.091Z",
+      "id": 7
+    }
+  ]
+}
