@@ -9,7 +9,7 @@ In the project directory, you can run:
 Runs server of the app in the development mode.<br />
 
 
-Resources
+Resources <br />
 http://localhost:3001/dishes <br />
 http://localhost:3001/comments <br />
 http://localhost:3001/promotions <br />
