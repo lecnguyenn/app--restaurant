@@ -10,11 +10,11 @@ Runs server of the app in the development mode.<br />
 
 
 Resources
-http://localhost:3001/dishes
-http://localhost:3001/comments
-http://localhost:3001/promotions
-http://localhost:3001/leaders
-http://localhost:3001/feedback
+http://localhost:3001/dishes <br />
+http://localhost:3001/comments <br />
+http://localhost:3001/promotions <br />
+http://localhost:3001/leaders <br />
+http://localhost:3001/feedback <br />
 
 
 
