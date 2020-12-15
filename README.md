@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+#In json-server
 ### `json-server --watch db.json -p 3001 -d 2000`
 
 Runs server of the app in the development mode.<br />
